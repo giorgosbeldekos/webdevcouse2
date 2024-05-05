@@ -3,6 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+    img {
+        width: 100%;
+        border-radius: 50%;
+        opacity: 0.5;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    video { 
+    width: 50%;
+    height:fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+    </style>
 </head>
 
 
@@ -10,7 +30,7 @@
     
     <header>
         <h1>New Page</h1>
-        <nav>
+        <nav class="navbar">
             <ul>
                 <li><a href="../Other Pages/services.html">Services</a></li>
                 <li><a href="../Other Pages/contact.html">Contact</a></li>
@@ -22,7 +42,7 @@
     <main>
         <section>
             <h2>Τίτλος</h2>
-            <p>Αυτο είναι ενα άρθρο</p>
+            <p style="font-size: 20px;">Αυτο είναι ενα άρθρο</p>
             <img src="news.jpg" alt="News logo" title="News" />
             <video width="400" height="400" controls autoplay muted loop preload="none">
                 <source src="mov_bbb.mp4" type="video/mp4"> 
@@ -35,6 +55,7 @@
     <footer>
         This is the footer for the page
     </footer>
-    
+
+
 </body>
 </html>
